@@ -1,15 +1,8 @@
 
-    .main-footer {
+.main-footer {
     background-color: #0d0f1b;
     color: #ffffff;
     padding: 40px 20px;
-}
-
-.scroll{
-
-    width: 100px;
-    margin-top: 50px;
-    margin-bottom: 4%;
 }
 
 .footer-wrapper {
@@ -26,9 +19,19 @@
     margin-left: 40px;
     padding-left: 30px;
     margin-bottom: 20px;
-    font-family: poppins;
+    font-family: Poppins, sans-serif;
     color: #b0b3c6;
     font-size: 14px;
+}
+
+.logo-container {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.logo {
+    width: 40px;
 }
 
 .brand-name {
@@ -42,9 +45,14 @@
     color: #b0b3c6;
     margin-bottom: 10px;
 }
-
-.social-links a {
-    margin-right: 10px;
+.logoft{
+    width: 35px;
+    padding-bottom: 10px;
+}
+.social-links {
+    display: flex;
+    gap: 10px;
+    margin-top: 10px;
 }
 
 .social-links img {
@@ -60,10 +68,12 @@ h4 {
 .nav-list {
     list-style: none;
     padding: 0;
+    margin-top: 40px;
+
 }
 
 .nav-list li {
-    margin-bottom: 5px;
+    margin-bottom: 40px;
 }
 
 .nav-list a {
@@ -84,73 +94,81 @@ h4 {
     margin-top: 20px;
     font-size: 14px;
     color: #b0b3c6;
+    max-width: 1100px;
+    margin: 20px auto 0;
+}
+
+.policy-links {
+    display: flex;
+    gap: 15px;
 }
 
 .policy-links a {
     color: #b0b3c6;
     text-decoration: none;
-    margin-left: 10px;
 }
 
 .policy-links a:hover {
     color: #ffffff;
 }
-    .etitle {
+
+.terms-of-use {
+    padding: 2px 5px;
+}
+
+
+.scroll{
+    width: 100px;
+    margin-top: 60px;
+    margin-bottom: 100px;
+}
+.reviews {
+    padding: 40px 20px;
+}
+.etitle {
     font-size: 24px;
     font-weight: bold;
-    margin-bottom: 20px;
+    margin-top: 180px;
+    margin-bottom: 90px;
+    text-align: center;
 }
-
-.reviews {
-    padding: 50px 20px;
-    background: white;
-}
-
 .review-list {
     display: flex;
-    justify-content: center;
     gap: 20px;
-    flex-wrap: wrap;
+    justify-content: center;
 }
-
 .review {
-    background: #f0f4ff;
+    width: 320px;
+    background: white;
     padding: 20px;
     border-radius: 10px;
-    width: 300px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
     text-align: center;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
-
 .profile-pic {
-    width: 60px;
-    height: 60px;
+    width: 80px;
+    height: 80px;
     border-radius: 50%;
     object-fit: cover;
+    margin-top: -40px;
 }
-
 .name {
     font-size: 18px;
-    margin: 10px 0;
-    font-weight: bold;
+    font-weight: 500;
+    margin-top: 10px;
 }
-
 .text {
     font-size: 14px;
     color: #555;
+    margin: 10px 0;
 }
-
 .stars {
-    font-size: 16px;
-    color: #ffb400;
-    margin-top: 10px;
+    margin-top: 50px;
+    font-size: 20px;
 }
-
-.deals {
-    padding: 50px 20px;
-    background: #f5f7fa;
-}
-
 .deal-list {
     display: flex;
     justify-content: center;
@@ -159,11 +177,10 @@ h4 {
 }
 
 .deal {
-    background: white;
+
     padding: 15px;
     border-radius: 10px;
     width: 300px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     text-align: left;
 }
 
@@ -188,7 +205,7 @@ h4 {
 .link {
     color: #007bff;
     text-decoration: none;
-    font-weight: bold;
+    font-weight: 500;
 }
 
 .link:hover {
@@ -216,8 +233,8 @@ h4 {
 }
 
 .label {
-    background-color: #6ccf85;
-    color: white;
+    background-color: #CBF2E0;
+    color: rgb(72, 174, 69);
     padding: 5px 10px;
     border-radius: 15px;
     font-size: 12px;
@@ -227,7 +244,10 @@ h4 {
 }
 
 .title {
+    margin-top: 10px;
     margin: 5px 0;
+    font-size: 18px;
+    font-weight: 500;
 }
 
 .text {
@@ -248,12 +268,22 @@ h4 {
 }
 
 .explore-container {
-    margin-top: 20px;
+    margin-top: 10px;
     text-align: center;
+    background-color: rgb(236, 241, 255);
 }
-
+.rimg{
+    width: 70px;
+    padding-top: 20px;
+    margin-right: 20px;
+}
+.rocket{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
 .explore-link {
-    margin-top: 75px;
+    margin-top: 25px;
     margin-bottom: 110px;
     font-size: 20px;
     font-weight: 500;
@@ -262,7 +292,15 @@ h4 {
     display: inline-flex;
     align-items: center;
 }
-
+.meet{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 25px;
+    font-weight: 600;
+    margin-top: 200px;
+    margin-bottom: 50px;
+}
 .explore-link::after {
     font-size: 14px;
     margin-left: 5px;
@@ -270,33 +308,39 @@ h4 {
 
         .container {
             display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-            gap: 20px;
+            grid-template-columns: repeat(auto-fit, minmax(300px,350px));
+            gap: 5px;
             padding: 20px;
             font-family: poppins;
-            background-color: #f5f5f5;
+            align-items: center;
+            justify-content: center;
         }
 
         .card {
             background: white;
             border-radius: 10px;
             overflow: hidden;
-            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            width: 304px;
             padding: 15px;
         }
 
         .card img {
-            width: 100%;
+            width: 304;
             height: 200px;
             object-fit: cover;
             border-radius: 10px;
         }
 
         .specialization {
-            background-color: #ffcc80;
+            background-color: #ffe5bd;
+            width: 272px;
+            height: 25px;
             display: inline-block;
             padding: 5px 10px;
+            padding-left: 2px;
             border-radius: 5px;
+            font-family: poppins;
+            font-size: 14px;
             margin: 10px 0;
         }
 
@@ -327,10 +371,12 @@ h4 {
             justify-content: space-between;
             align-items: center;
             margin: 10px 0;
+            margin-bottom: 0;
+            height: 47px;
         }
 
         .advisor-name {
-            font-weight: normal;
+            font-weight: 500;
             font-size: 18px;
         }
 
@@ -339,6 +385,8 @@ h4 {
             align-items: center;
             justify-content: space-between;
             margin-top: 10px;
+            border-radius: 6px;
+            background-color: #eff3fe;
         }
 
         .price-info {
@@ -355,14 +403,16 @@ h4 {
         .btn-container {
             display: flex;
             gap: 10px;
+            padding-right: 14px;
         }
 
         .call-btn{      
              padding: 5px 30px;
             color: rgb(255, 255, 255);
-            border-radius: 5px;
+            border-radius: 10px;
             cursor: pointer;
             font-size: 14px;
+            height: 40px;
         } 
 
 
@@ -379,6 +429,7 @@ h4 {
             font-size: 30px;
             font-family: poppins;
             margin-bottom: 40px;
+            font-weight: 600;
         }
         .ytle{
             display: grid;
@@ -390,7 +441,10 @@ h4 {
             gap: 30px;
         }
         .watch{
-           font-size: 34px;
+           font-size: 28px;
+           margin-top: 0;
+           font-weight: 550;
+           padding-top: 80px;
         }
         .expol{
             padding: 13px 50px;
@@ -418,10 +472,15 @@ h4 {
             line-height: 60px;
             margin-bottom: 0px;
         }
+        .three{
+            padding-top: 27px;
+            padding-left: 45px;
+
+        }
         .content{
         display: grid;
-        grid-template-columns: 545px 520px;
-        margin-left:170px;
+        grid-template-columns: 100px 545px 520px;
+        margin-left:60px;
         margin-top: 100px;
         }
         .logo{
