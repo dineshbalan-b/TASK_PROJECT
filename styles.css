@@ -5,6 +5,12 @@
     padding: 40px 20px;
 }
 
+.scroll{
+
+    width: 100px;
+    margin-top: 50px;
+    margin-bottom: 4%;
+}
 .footer-wrapper {
     display: flex;
     justify-content: space-between;
@@ -16,12 +22,18 @@
 .footer-box {
     flex: 1;
     min-width: 200px;
+    margin-left: 40px;
+    padding-left: 30px;
     margin-bottom: 20px;
+    font-family: poppins;
+    color: #b0b3c6;
+    font-size: 14px;
 }
 
 .brand-name {
     font-size: 22px;
     font-weight: bold;
+    margin-top: 10px;
 }
 
 .footer-info {
