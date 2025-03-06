@@ -405,6 +405,7 @@ h4 {
         .curve{
             width: 240px;
             padding-left: 220px;
+            margin-bottom: 40px;
         }
         .ex{
             display: grid;
