@@ -88,7 +88,6 @@ h4 {
     margin-bottom: 20px;
 }
 
-/* Reviews Section */
 .reviews {
     padding: 50px 20px;
     background: white;
@@ -134,7 +133,6 @@ h4 {
     margin-top: 10px;
 }
 
-/* Deals Section */
 .deals {
     padding: 50px 20px;
     background: #f5f7fa;
@@ -272,7 +270,6 @@ h4 {
             overflow: hidden;
             box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
             padding: 15px;
-            position: relative;
         }
 
         .card img {
