@@ -123,7 +123,16 @@ h4 {
     margin-bottom: 100px;
 }
 .reviews {
-    padding: 40px 20px;
+    padding: 60px 20px;
+}
+iframe{
+
+}
+.yttitle{
+    background-color: rgb(47, 50, 50);
+    color: white; padding-left: 5px; 
+     border-bottom-left-radius: 10px; 
+     border-bottom-right-radius: 10px;
 }
 .etitle {
     font-family: gilroy-bold;
@@ -153,7 +162,7 @@ h4 {
     width: 80px;
     height: 80px;
     border-radius: 50%;
-    object-fit: cover;
+    object-fit:cover;
     margin-top: -40px;
 }
 .name {
@@ -165,11 +174,12 @@ h4 {
 .text {
     font-family: gilroy-regular;
     font-size: 14px;
+    line-height: 24px;
     color: #555;
     margin: 10px 0;
 }
 .stars {
-    margin-top: 50px;
+    margin-top: 90px;
     font-size: 20px;
 }
 .deal-list {
@@ -241,7 +251,7 @@ justify-content: center;
 }
 
 .step {
-    margin-bottom: 20px;
+    margin-bottom: 40px;
 }
 
 .label {
@@ -287,12 +297,14 @@ justify-content: center;
     background-color: rgb(236, 241, 255);
 }
 .rimg{
-    width: 70px;
-    padding-top: 20px;
-    margin-right: 20px;
+    width: 200px;
+    height: 120px;
+    padding-top: 1px;
+    margin-right: 10px;
 }
 .rocket{
     display: flex;
+    margin-right: 200px;
     align-items: center;
     justify-content: center;
 }
@@ -357,7 +369,7 @@ justify-content: center;
         }
 
         .specialization {
-            background-color: #ffe5bd;
+            background: linear-gradient(90deg, rgba(248, 151, 31, 0.12) 0%, rgba(248, 248, 248, 0.24) 96.14%);
             width: 272px;
             height: 25px;
             display: inline-block;
@@ -365,10 +377,12 @@ justify-content: center;
             padding-left: 2px;
             border-radius: 5px;
             font-family: poppins;
-            font-size: 14px;
+            font-size: 12px;
             margin: 10px 0;
         }
-
+.bold{
+    font-weight: 500;
+}
         .top-rated {
             position: absolute;
             background: #4285f4;
@@ -440,15 +454,17 @@ justify-content: center;
             cursor: pointer;
             font-size: 14px;
             height: 40px;
-        } 
-
-
-        .call-btn {
-            background-color: rgb(64, 85, 226);
-            border-width: 1px;
-            border-color: rgb(64, 85, 226);
+            border-style: none;
+            background-color:rgba(89, 120, 255, 1);
         }
-
+.crown{
+    height: 16px;
+    width: 16px;
+}
+        .dots{
+            margin-top:94px;
+            width: 200px;
+        }
         .head{
             text-transform: capitalize;
             font-family: gilroy-bold;
@@ -457,7 +473,7 @@ justify-content: center;
             padding-top: 98px;
             font-size: 30px;
             font-family: poppins;
-            margin-bottom: 40px;
+            margin-bottom: 65px;
             font-weight: 600;
         }
         .ytle{
@@ -480,7 +496,7 @@ justify-content: center;
             padding: 13px 50px;
             border-radius: 10px;
             border-style: none;
-            background-color: rgb(75, 75, 255);
+            background-color: #5978FF;
             color: white;
             font-family: poppins;
             font-size: 16px;
@@ -503,15 +519,18 @@ justify-content: center;
             margin-bottom: 0px;
         }
         .three{
-            padding-top: 27px;
+            padding-top: 1px;
+            height: 93%;
             padding-left: 45px;
 
         }
         .content{
         display: grid;
         grid-template-columns: 100px 545px 520px;
-        margin-left:60px;
-        margin-top: 100px;
+        align-items: center;
+        justify-content: center;
+        margin-top: 75px;
+        padding-top: 50px;
         }
         .logo{
             width: 90PX;
@@ -555,6 +574,7 @@ justify-content: center;
 
         nav ul li a:hover {
             color: #e68c06;
+            cursor: pointer;
         }
         .get, .login {
             font-family: 'Poppins', sans-serif;
@@ -567,13 +587,13 @@ justify-content: center;
 
         .get {
             color: white;
-            background-color: rgb(75, 75, 255);
+            background-color: #5978FF;
             margin-right: 50px;
         }
 
         .login {
             color: rgb(65, 72, 198);
             background-color: rgb(255, 255, 255);
-            border: 1px solid rgb(75, 75, 255);
+            border: 1px solid #5978FF;
             margin-right: 10px;
         }
