@@ -126,6 +126,7 @@ h4 {
     padding: 40px 20px;
 }
 .etitle {
+    font-family: gilroy-bold;
     font-size: 24px;
     font-weight: bold;
     margin-top: 180px;
@@ -156,11 +157,13 @@ h4 {
     margin-top: -40px;
 }
 .name {
+    font-family: gilroy-bold 400;
     font-size: 18px;
     font-weight: 500;
     margin-top: 10px;
 }
 .text {
+    font-family: gilroy-regular;
     font-size: 14px;
     color: #555;
     margin: 10px 0;
@@ -192,9 +195,10 @@ h4 {
 }
 
 .deal-title {
-    font-size: 18px;
+    font-family:gilroy-medium;
+    font-size: 16px;
     margin: 10px 0;
-    font-weight: bold;
+    letter-spacing: 1px;
 }
 
 .deal-text {
@@ -244,6 +248,7 @@ h4 {
 }
 
 .title {
+    font-family: gilroy-bold 400;
     margin-top: 10px;
     margin: 5px 0;
     font-size: 18px;
@@ -251,6 +256,7 @@ h4 {
 }
 
 .text {
+    font-family: gilroy-medium;
     font-size: 14px;
     color: #555;
 }
@@ -293,6 +299,7 @@ h4 {
     align-items: center;
 }
 .meet{
+    font-family: gilroy-bold;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -376,7 +383,8 @@ h4 {
         }
 
         .advisor-name {
-            font-weight: 500;
+            font-family: gilroy-bold;
+            font-weight: 400;
             font-size: 18px;
         }
 
@@ -396,6 +404,7 @@ h4 {
         }
 
         .price {
+            font-size: 14px;
             text-decoration: line-through;
             color: gray;
         }
@@ -423,6 +432,8 @@ h4 {
         }
 
         .head{
+            text-transform: capitalize;
+            font-family: gilroy-bold;
             justify-content: center;
             align-items: center;
             padding-top: 98px;
@@ -441,6 +452,7 @@ h4 {
             gap: 30px;
         }
         .watch{
+            font-family: gilroy-bold;
            font-size: 28px;
            margin-top: 0;
            font-weight: 550;
